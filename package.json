@@ -1,0 +1,28 @@
+{
+  "name": "magazinesite",
+  "version": "1.0.0",
+  "description": "Magazine Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokcetrgn/MagazineSite.git"
+  },
+  "keywords": [
+    "magazine",
+    "daily",
+    "photo",
+    "info"
+  ],
+  "author": "Gökçenaz Torgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gokcetrgn/MagazineSite/issues"
+  },
+  "homepage": "https://github.com/gokcetrgn/MagazineSite#readme",
+  "devDependencies": {
+    "prettier": "3.5.3"
+  }
+}
