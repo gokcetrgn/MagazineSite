@@ -9,15 +9,14 @@ app.set('view engine', 'ejs');
 // MIDDLEWARE
 app.use(express.static('public'));
 
-app.get('/addphoto', (req, res) => {
-  res.render('addphoto');
+app.get('/', (req, res) => {
+  res.render('../view/index');
+});
+app.get('/add_post', (req, res) => {
+  res.render('../view/add_post');
 });
 app.get('/about', (req, res) => {
-  res.render('about');
-});
-
-app.get('/', (req, res) => {
-  res.render('index');
+  res.render('../view/about');
 });
 
 const PORT = 5000;
